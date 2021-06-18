@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.322);
+    
+}
+
+.head {
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+#myform {
+    text-align: center;
+}
+
+.form-control {
+    margin: 30px 0;
+
+}
+
+.btn {
+    background-color: rebeccapurple;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid rebeccapurple;
+    color: black;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.uspeh {
+    border: 1px solid green;
+}
